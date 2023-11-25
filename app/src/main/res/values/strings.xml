@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">bleGPS</string>
+    <string name="devices">Bluetooth LE Devices</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
+
+    <string name="location_permission_title">Location permission</string>
+    <string name="location_permission_grant">This app does not use location information, but scanning for Bluetooth LE devices requires this permission. Please grant in next dialog.</string>
+    <string name="location_permission_denied">As location permission has not been granted, this app cannot scan for Bluetooth LE devices.</string>
+
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

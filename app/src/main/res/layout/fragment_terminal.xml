@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_weight="1"
+        android:background="#3F51B5"
+        android:padding="10.pt">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/latLbl"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:text="Latitude"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/lat"
+                android:layout_width="241dp"
+                android:layout_height="match_parent"
+                android:text="00.000"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lonLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longitude"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/lon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="00.000"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/hdopLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HDOP"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/hdop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/satLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satellites"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/sat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/minSpeedLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min Speed"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/minSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/speedLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speed"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/maxSpeedLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Speed"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/maxSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/minAltLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min Alt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/minAlt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/altLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/alt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/maxAltLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Alt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/maxAlt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:background="#5A541F"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/logSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5pt"
+            android:text="Log"
+            tools:checked="true" />
+
+        <Switch
+            android:id="@+id/nmeaSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5pt"
+            android:text="NMEA" />
+
+        <Switch
+            android:id="@+id/radioSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5pt"
+            android:text="Radio"
+            tools:checked="true" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/receive_text"
+        android:layout_width="match_parent"
+        android:layout_height="519dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:freezesText="true"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/send_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text|textNoSuggestions"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_send_white_24dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
